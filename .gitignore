@@ -1,4 +1,4 @@
 deployment_documentation
 artifacts
-env
+env/
 logs

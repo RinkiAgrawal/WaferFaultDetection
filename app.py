@@ -2,9 +2,6 @@ from flask import Flask, render_template, jsonify, request, send_file
 from src.exception import CustomException
 from src.logger import logging as lg
 import os,sys
-from urllib.parse import quote as url_quote
-
-
 
 from src.pipeline.train_pipeline import TraininingPipeline
 from src.pipeline.predict_pipeline import PredictionPipeline
